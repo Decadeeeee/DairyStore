@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+        <Button
+            android:id="@+id/startDeliver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开始送货">
+        </Button>
+       <Button
+           android:id="@+id/addCustomer"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="添加顾客">
+       </Button>
+       <Button
+           android:id="@+id/renewCustomer"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="更新顾客信息">
+       </Button>
+    <Button
+        android:id="@+id/checkNewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看今天更新的信息">
+    </Button>
+</LinearLayout>
